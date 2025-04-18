@@ -1,0 +1,86 @@
+.management-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.management-menu {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+  flex-direction: column;
+}
+.management-menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.management-items {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 486px;
+}
+.customer {
+  display: flex;
+  gap: 8px;
+  max-width: 450px;
+}
+.management-slogan {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.management-heading {
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+.management-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.63;
+}
+
+.management-headline {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.625;
+  color: #22343d;
+}
+
+.click-box {
+  content: ' ';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border: 2.92px solid #fff;
+  border-radius: 14px;
+  width: 35px;
+  height: 35px;
+}
+
+.management-items li:nth-child(3) .click-box {
+  background-color: #f90;
+}
+
+.management-items li:nth-child(4) .click-box {
+  background-color: #f03e3d;
+}
+
+.management-items li:nth-child(5) .click-box {
+  background-color: #4d8dff;
+}
+
+.management-items .customer li:nth-child(n + 3):nth-child(-n + 5) {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  border: 2.92px solid #fff;
+}
+
+.management-items li:nth-child(n + 3):nth-child(-n + 5) .icon-click {
+  fill: #fff;
+}
