@@ -19,6 +19,7 @@
   display: flex;
   gap: 30px;
 }
+
 .bold {
   font-weight: 700;
 }
@@ -46,25 +47,4 @@
 .strategy-heading {
   margin-bottom: 40px;
   margin-left: 27px;
-}
-
-.price-subtitle {
-  font-weight: 700;
-  font-size: 34px;
-  color: #22343d;
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-.price-slogan {
-  font-weight: 500;
-  font-size: 16px;
-  color: #22343d;
-  margin: 0px auto 74px;
-  max-width: 213px;
-}
-
-.price-menu {
-  display: flex;
-  gap: 72px;
 }
