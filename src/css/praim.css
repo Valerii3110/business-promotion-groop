@@ -1,0 +1,35 @@
+.container-praim {
+  display: flex;
+  gap: 10px;
+  border-radius: 32px;
+  width: 968px;
+  background-color: #02897a;
+}
+.praim-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.praim-subtitle {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.514;
+  color: #fff;
+}
+.praim-btn {
+  max-width: 150px;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 10px 34px;
+  color: #02897a;
+  border-radius: 8px;
+  border: none;
+}
+
+.praim-btn:hover,
+.praim-btn:focus {
+  background-color: #02897a;
+  color: #fff;
+  border-radius: 8px;
+  border: 1px solid #fff;
+}

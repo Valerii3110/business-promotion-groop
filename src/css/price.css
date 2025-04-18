@@ -1,0 +1,133 @@
+.price-subtitle {
+  font-weight: 700;
+  font-size: 34px;
+  color: #22343d;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.price-slogan {
+  font-weight: 500;
+  font-size: 16px;
+  color: #22343d;
+  margin: 0px auto 74px;
+  max-width: 213px;
+}
+
+.price-menu {
+  display: flex;
+  gap: 72px;
+}
+
+.price-menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 8px;
+  width: 322px;
+  height: 456px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+  background: #fff;
+}
+
+.price-heading {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.66667;
+  color: #22343d;
+}
+
+.price-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2.5;
+  color: #22343d;
+}
+
+.price-box {
+  display: flex;
+  align-items: baseline;
+  gap: 2px;
+  position: relative;
+}
+
+.price-number {
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 1.31579;
+  letter-spacing: 0em;
+  color: #02897a;
+}
+
+.price-symbol {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.25;
+  letter-spacing: 0em;
+  color: #02897a;
+  position: absolute;
+  top: 24px;
+  right: 82px;
+}
+
+.price-menu .price-menu-item:nth-child(2) {
+  background-color: #02897a;
+}
+
+.price-menu-item:nth-child(2) .price-heading {
+  color: #fff;
+}
+
+.price-menu-item:nth-child(2) .price-number {
+  color: #fff;
+}
+.price-menu-item:nth-child(2) .price-symbol {
+  color: #fff;
+}
+
+.price-menu-item:nth-child(2) .price-text {
+  color: #fff;
+}
+
+.price-menu-item:nth-child(2) .price {
+  color: #fff;
+  font-weight: bold;
+}
+
+.price-menu-item:nth-child(2) .price-btn {
+  background-color: #fff;
+  color: #02897a;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.price-menu-item:nth-child(2) .price-btn:hover {
+  background-color: #02897a;
+  color: #ffff;
+  border: 1px solid #fff;
+}
+
+.price-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.price-btn {
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+  width: 139px;
+  height: 44px;
+  background-color: #02897a;
+}
+.price-btn:hover {
+  background-color: #fff;
+  color: #02897a;
+  border: 1px solid #02897a;
+}
