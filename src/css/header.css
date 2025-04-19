@@ -1,10 +1,11 @@
 .header-container {
+  min-width: 411px;
   display: flex;
-  align-items: center;
+  justify-content: space-between;
   padding: 15px;
 
   box-shadow: 0 -2px 8px 0 rgba(0, 0, 0, 0.25);
-  background: #fff;
+  background-color: #fff;
 }
 
 .logo {
@@ -16,36 +17,26 @@
   align-items: center;
   gap: 4px;
   margin-right: 154px;
-<<<<<<< HEAD
   padding: 21px 0;
 }
 
-.header-nav {
-=======
-  padding: 17px 0;
-}
-
-. .header-nav {
->>>>>>> 0328683c341d84a34129c31fa2f9f0570f9f3992
+.header-nav,
+.header-btn-list {
   display: none;
 }
-.header-nav-list {
-}
-.header-nav-item {
-}
-.header-nav-link {
-}
-.current {
-}
-.header-btn-list {
-}
-.header-btn-item {
-}
-.header-btn {
-}
-.btn {
-}
+
 .burger-btn {
+  padding: 0;
+  border: 2px solid #173a56;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+
+.burger-icon {
+  display: block;
+  stroke-width: 3px;
+  stroke: #173a56;
 }
 .mob-menu {
 }
