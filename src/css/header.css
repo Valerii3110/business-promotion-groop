@@ -1,10 +1,12 @@
+.header {
+  border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0 -2px 8px 0 rgba(0, 0, 0, 0.25);
+  padding: 20px;
+}
+
 .header-container {
-  min-width: 411px;
   display: flex;
   justify-content: space-between;
-  padding: 15px;
-
-  box-shadow: 0 -2px 8px 0 rgba(0, 0, 0, 0.25);
   background-color: #fff;
 }
 
@@ -16,7 +18,7 @@
   display: flex;
   align-items: center;
   gap: 4px;
-  margin-right: 154px;
+
   padding: 21px 0;
 }
 
@@ -27,22 +29,95 @@
 
 .burger-btn {
   padding: 0;
-  border: 2px solid #173a56;
-  width: 100%;
-  height: 100%;
-  background-color: transparent;
+  background-color: #fff;
 }
 
 .burger-icon {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
-  width: 0.9em;
+  display: block;
+  fill: #173a56;
 }
+@media screen and (min-width: 768px) {
+  .burger-btn {
+    display: none;
+  }
+  .header-nav {
+    display: flex;
+    flex-direction: row;
+    margin-right: 73px;
+  }
+
+  .header-nav-list {
+    display: flex;
+    gap: 30px;
+  }
+
+  .header-nav-link {
+    line-height: 1.75;
+    color: #22343d;
+    display: block;
+    padding: 26px 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .header-nav-link:hover,
+  .header-nav-link:focus {
+    color: #355b7a;
+  }
+
+  .current {
+    font-weight: 600;
+  }
+
+  .header-btn-list {
+    display: flex;
+    gap: 21px;
+  }
+
+  .header-btn {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #173a56;
+    border: 1px solid #bcd0e5;
+    border-radius: 4px;
+    min-width: 105px;
+    height: 42px;
+    background-color: transparent;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .header-btn:hover,
+  .header-btn:focus {
+    color: #fff;
+    background-color: #02897a;
+    border-color: transparent;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header-container {
+    padding: 15px 32px;
+  }
+}
+
 .mob-menu {
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+
+  transform: translateY(-100%);
+
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mob-menu-container {
 }
