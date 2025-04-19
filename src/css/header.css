@@ -1,6 +1,10 @@
 .header-container {
   display: flex;
   align-items: center;
+  padding: 15px;
+
+  box-shadow: 0 -2px 8px 0 rgba(0, 0, 0, 0.25);
+  background: #fff;
 }
 
 .logo {
@@ -10,59 +14,55 @@
   color: #173a56;
   display: flex;
   align-items: center;
-  gap: 22px;
-  margin-right: 237px;
-  padding: 24px 0;
+  gap: 4px;
+  margin-right: 154px;
+  padding: 21px 0;
 }
 
 .header-nav {
-  margin-right: 73px;
+  display: none;
 }
-
 .header-nav-list {
-  display: flex;
-  gap: 30px;
 }
-
+.header-nav-item {
+}
 .header-nav-link {
-  line-height: 1.75;
-  color: #22343d;
-  display: block;
-  padding: 26px 0;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.header-nav-link:hover,
-.header-nav-link:focus {
-  color: #355b7a;
-}
-
 .current {
-  font-weight: 600;
 }
-
 .header-btn-list {
-  display: flex;
-  gap: 21px;
 }
-
+.header-btn-item {
+}
 .header-btn {
-  font-family: inherit;
-  font-weight: 600;
-  font-size: 16px;
-  text-align: center;
-  color: #173a56;
-  border: 1px solid #bcd0e5;
-  border-radius: 4px;
-  min-width: 105px;
-  height: 42px;
-  background-color: transparent;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.header-btn:hover,
-.header-btn:focus {
-  color: #fff;
-  background-color: #02897a;
-  border-color: transparent;
+.btn {
+}
+.burger-btn {
+}
+.mob-menu {
+}
+.mob-menu-container {
+}
+.menu-close-btn {
+}
+.menu-close-icon {
+}
+.mob-nav {
+}
+.mob-menu-list {
+}
+.mob-menuitem {
+}
+.mob-menu-nav-link {
+}
+.mob-menu-item {
+}
+.mob-menu-link {
+}
+.mob-btn-list {
+}
+.mob-btn-item {
+}
+.mob-btn {
 }
