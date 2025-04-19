@@ -17,9 +17,10 @@
 }
 
 .hero-wpap {
+  min-width: 369px;
 }
 .title-page {
-  min-width: 369px;
+  min-width: 326px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.7;
@@ -28,6 +29,7 @@
 }
 
 .hero-text {
+  max-width: 326px;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.55556;
@@ -37,6 +39,12 @@
 .text {
 }
 .hero-btn-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 45px;
+  margin-bottom: 45px;
 }
 
 .hero-btn-item {
@@ -62,9 +70,41 @@
   background-color: #02897a;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.btn-secondary {
+btn-secondary {
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #02897a;
+  background-color: #fff;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .hero-icon-btn {
+  fill: currentColor;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icon {
+
+.btn-primary:hover,
+.btn-primary:focus {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #02897a;
+  background-color: transparent;
+  border: transparent;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus,
+.hero-icon-btn:hover,
+.hero-icon-btn:focus {
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  border-color: transparent;
+  min-width: 178px;
+  height: 53px;
+  background-color: #02897a;
+  fill: #fff;
 }
