@@ -16,10 +16,17 @@
   align-items: center;
   gap: 4px;
   margin-right: 154px;
+<<<<<<< HEAD
   padding: 21px 0;
 }
 
 .header-nav {
+=======
+  padding: 17px 0;
+}
+
+. .header-nav {
+>>>>>>> 0328683c341d84a34129c31fa2f9f0570f9f3992
   display: none;
 }
 .header-nav-list {
