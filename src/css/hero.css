@@ -19,8 +19,9 @@
 .hero-wpap {
   min-width: 369px;
 }
+
 .title-page {
-  min-width: 326px;
+  max-width: 320px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.7;
@@ -36,16 +37,14 @@
   text-align: center;
   color: #22343d;
 }
-.text {
-}
+
 .hero-btn-list {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
-  margin-top: 45px;
-  margin-bottom: 45px;
-}
+  margin-top: 32px;
+  
 
 .hero-btn-item {
   display: flex;
@@ -70,7 +69,8 @@
   background-color: #02897a;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-btn-secondary {
+
+.btn-secondary {
   font-weight: 600;
   font-size: 16px;
   text-decoration: underline;
